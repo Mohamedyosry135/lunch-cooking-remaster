@@ -1,0 +1,26 @@
+part of 'ForgetPasswordWidgetsImports.dart';
+
+class BuildText extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin:  EdgeInsets.only(top: MediaQuery.of(context).size.height*0.15),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          MyText(
+            title:"Forgot your Password",
+            size: 50,
+            color: MyColors.primaryDark,
+          ),
+          SizedBox(height: 20),
+          MyText(
+            title: "Enter your email or phone number to recover your password.",
+            size: 18,
+            color: MyColors.grey,
+          ),
+        ],
+      ),
+    );
+  }
+}
