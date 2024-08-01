@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lunchcooks-dev-211323-authRole",
+      "UnauthRoleArn": "arn:aws:iam::706175044297:role/amplify-lunchcooks-dev-211323-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::706175044297:role/amplify-lunchcooks-dev-211323-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-lunchcooks-dev-211323-deployment",
+      "UnauthRoleName": "amplify-lunchcooks-dev-211323-unauthRole",
+      "StackName": "amplify-lunchcooks-dev-211323",
+      "StackId": "arn:aws:cloudformation:us-east-1:706175044297:stack/amplify-lunchcooks-dev-211323/fbe3a8c0-2e17-11ed-8fb5-0ad8801f7aa7",
+      "AmplifyAppId": "d2de0yuuo4o0qn"
+    },
+    "categories": {
+      "auth": {
+        "lunchcooksc7d46b5c": {}
+      }
+    }
+  }
+}
